@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightsteelblue;
+    color: #000;
+    font-family: arial;
+}
+
+.weather-app {
+    width: 50%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.left {
+    position: absolute;
+    top: 80px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.temperature {}
+
+.top {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.top img {
+    background: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.bottom {
+    position: absolute;
+    top: 140px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+}
